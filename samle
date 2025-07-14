@@ -1,0 +1,10 @@
+Python ipput test for GEI
+This two Commands are using https    
+git config --global http.sslVerify false
+
+git config --global http.sslbackend schannel
+
+This two commands are using proxy 
+    git config --global --unset http.proxy
+
+    git config --global --unset https.proxy
